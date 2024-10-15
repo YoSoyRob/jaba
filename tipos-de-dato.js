@@ -45,3 +45,25 @@ console.log(miMensaje)
 //false
 
 console.log(typeof 10 == 10)
+
+// ejemplos 
+
+console.log ("Hola Mundo")
+
+let unMensaje = "Estoy aprendiendo la consola de Java"
+
+console.log (unMensaje)
+
+console.log ((5+5)/2)
+
+console.log ("Paran" + "garacutirimicuaro")
+
+console.log ("Tengo" + " " + "5 " + "manzanas" )
+
+console.log ( 10 <= 10)
+
+console.log (10 >= 10)
+
+console.log (10 >= 100)
+
+console.log (10 >= 100)
