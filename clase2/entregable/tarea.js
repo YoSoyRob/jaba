@@ -1,4 +1,5 @@
-const calificacion = 50;
+
+const calificacion = 65;
 let nota = null;
 
 if(calificacion >= 90) {
@@ -7,7 +8,7 @@ if(calificacion >= 90) {
     nota = "bien"
 } else if (calificacion >= 60) { 
     nota = "suficiente"
-} else (calificacion <= 60); { 
-    nota = "no aprueba" }
+} else { 
+    nota = "no aprobatorio" }
 
 console.log(`El desempeño del estudiante fue ${nota}`);
