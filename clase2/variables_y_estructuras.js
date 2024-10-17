@@ -113,9 +113,10 @@ console.log(`El cliente tienen ${porcentaje} % de descuento`);
 
 // se puede insertar {console.log(`El cliente tiene 50% de descuento`)}
 
+
+//ejemplo
 const edadU = 21; 
 if (edadU >= 18) {
     edad = "mayor de edad";
 }
-
 console.log (`la persona es ${edad}`)
