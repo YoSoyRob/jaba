@@ -31,7 +31,7 @@ for(let i = 0; i < libros.length; i++) {
 }
 
 for(let i = 0; i < libros.length; i++) {
-    if (libros.estado === true) {
+    if (libros[i].estado === true) {
         console.log(`El libro "${libros[i].titulo}" esta disponible para su consulta`);
     } else {
         console.log (`El libro "${libros[i].titulo}" no esta disponible para su consulta`);
