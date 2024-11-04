@@ -4,7 +4,7 @@ function generateRandomNumber(min, max) {
   }
   
   function generatePassword(length) {
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ&0123456789';
+    const characters = 'ABCDEFGhij&0123456789';
     let password = '';
   
     for (let i = 0; i < length; i++) {
