@@ -60,8 +60,25 @@ specialContainer.innerHTML = `
 
 
 //listener 
+let displayedImage = true;
 
+const handleClick = () => {
+    console.log("esta tocandome");
+    console.log(containers[0].children);
+    if(displayedImage) {
+        containers[0].children[1].remove();
+        displayedImage = false;
+    } else {
+    let newImage = document.createElement("img");
+    newImage.src = "/clase6/imagen/gato.jpg";
+    newImage.alt = "gato";
+    containers[0].insertBefore(newImage, containers[0].children[1])
+    displayedImage= true;
+}
+}
+//en el anterior, desaparece y aparece en codigo html la imagen
 
+/*
 function handleClick (){
     console.log("esta tocandome");
     let imageContainer = document.querySelector(".container img");
@@ -74,5 +91,8 @@ function handleClick (){
     } //para que este funcione se deben de quitar las lineas 67 y 68 de este codigo
 }
 
-imageBtn.addEventListener("click", handleClick) /*muestra el console.log en la consola al picar el boton
+*/
+
+
+imageBtn.addEventListener("click", () => handleClick () ) /*muestra el console.log en la consola al picar el boton
 tambien se puede llamar con la funcion sin parentesis, () => handleClick()*/
