@@ -1,23 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/clase6/tarea/main.js" defer></script> <!--se puede insertar aqui o al final, antes del cierre del body, en tal caso, sin necesidad de poner "defer"-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>password generator</title>
-</head>
-<body>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
     <main>
-        <div class="cell">
-            <span id="password"></span>
-        </div>
-        <div class="controls">
-            <label for="length">length</label>
-            <input type="range" id="length" min="4" max="100" value="20" />
-            <button id="generate" onclick="generaterandomnumber()">generate</button>
-        </div>
-        
+      <div class="cell">
+        <span id="password"></span>
+      </div>
+      <div class="controls">
+        <label for="length">length</label>
+        <input type="range" id="length" min="4" max="100" value="20" />
+        <button id="generate" onclick="generateRandomNumber()">generate</button>
+      </div>
+      <script src="/clase6/password/projects_master_code/module_3/password_gen/main.js"></script>
     </main>
-    
-</body>
+  </body>
 </html>
